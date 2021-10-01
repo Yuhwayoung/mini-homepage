@@ -1,0 +1,46 @@
+.guest-box{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.scroll-box{
+    width: 450px;
+    height: 500px;
+    overflow-y: scroll;
+}
+
+.name-box1{
+    flex: 4;
+    padding: 5px;
+    border-radius: 7px;
+    background-color: lightgrey;
+    font-family: 'HSYuji-Regular';
+}
+
+.main-box{
+    flex: 10;
+    display: flex;
+    flex-direction: row;
+}
+
+.main-box-img {
+    flex: 4;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.main-box-img>img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.main-descript {
+    flex: 5;
+    text-align: left;
+    padding: 60px 15px 15px 15px;
+    margin-bottom: 15px;
+    font-family: 'HSYuji-Regular';
+}
+
